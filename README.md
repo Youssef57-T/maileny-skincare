@@ -30,7 +30,7 @@ Luego abre http://localhost:4410
 
 ## Publicación
 El sitio está en **https://maileny-skincare-bice.vercel.app/** (Vercel).
-Para publicar cambios, desde esta carpeta: `npx vercel deploy --prod`
+Cada cambio que se sube a la rama `main` de GitHub se publica solo. También se puede publicar desde esta carpeta con `npx vercel deploy --prod`.
 
 Si algún día se usa un dominio propio (se añade en Vercel → Settings → Domains), cambia la dirección en `index.html` (`canonical`, `og:url`, `og:image`), `robots.txt` y `sitemap.xml`.
 
