@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://youssef57-t.github.io/maileny-skincare/sitemap.xml
