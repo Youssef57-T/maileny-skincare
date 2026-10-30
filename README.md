@@ -29,14 +29,14 @@ python -m http.server 4410
 Luego abre http://localhost:4410
 
 ## Publicación
-El sitio está en **https://youssef57-t.github.io/maileny-skincare/** (GitHub Pages).
-Cada cambio que se sube a la rama `main` se publica solo en uno o dos minutos.
+El sitio está en **https://maileny-skincare-bice.vercel.app/** (Vercel).
+Para publicar cambios, desde esta carpeta: `npx vercel deploy --prod`
 
-Si algún día se usa un dominio propio, cambia la dirección en `index.html` (`canonical`, `og:url`, `og:image`), `robots.txt` y `sitemap.xml`.
+Si algún día se usa un dominio propio (se añade en Vercel → Settings → Domains), cambia la dirección en `index.html` (`canonical`, `og:url`, `og:image`), `robots.txt` y `sitemap.xml`.
 
 ## Herramientas (opcionales)
 - `python tools/make-images.py` — regenera `logo.webp` y la imagen para redes `og.jpg` a partir de `logo.png`.
-- `node tools/mobile-check.mjs` — revisa la página en anchos de móvil (320–768 px): sin scroll horizontal, botones de al menos 44 px, sin errores, y el menú móvil. Para el 404, sirve la carpeta superior y usa `BASE_URL=http://127.0.0.1:4410/maileny-skincare`.
+- `node tools/mobile-check.mjs` — revisa la página en anchos de móvil (320–768 px): sin scroll horizontal, botones de al menos 44 px, sin errores, y el menú móvil. Necesita `python -m http.server 4410` corriendo en esta carpeta.
 
 ## Archivos
 - `index.html` — estructura de la página

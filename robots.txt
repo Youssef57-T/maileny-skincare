@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://youssef57-t.github.io/maileny-skincare/sitemap.xml
+Sitemap: https://maileny-skincare-bice.vercel.app/sitemap.xml
